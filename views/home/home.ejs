@@ -32,9 +32,14 @@
       
                 <br>
 
-                <div class="text-center">
+                <div class="text-center hidden-sm-down">
                     <a class="btn btn-default btn-lg" href="#" style="border-radius: 0px;" data-scrollto="section-content">Get Started</a> 
                     <a class="btn btn-danger btn-lg" href="#" style="border-radius: 0px" data-scrollto="section-content">Learn More <span class="fa fa-arrow-right"></span></a>
+                </div>
+
+                <div class="text-center hidden-sm-up">
+                    <a class="btn btn-default btn-lg btn-block" href="#" style="border-radius: 0px;" data-scrollto="section-content">Get Started</a> <br>
+                    <a class="btn btn-danger btn-lg btn-block" href="#" style="border-radius: 0px" data-scrollto="section-content">Learn More <span class="fa fa-arrow-right"></span></a>
                 </div>
 	         	
 	         	<br>
@@ -114,10 +119,10 @@
     <!-- // END OF ABOUT US SECTION -->
 
     <!-- THIS IS THE OUR TEAM SECTION -->
-    <section class="section overflow-hidden team-member" id="section-team" style="background-image: url(public/images/startup-photos2.jpg)" data-overlay="6">
+    <section class="section overflow-hidden team-member" id="section-team" style="background-image: url(public/images/startup-photos2.jpg)" data-overlay="9">
         <div class="container pb-40">
             <div class="row">
-                <div class="col-12 col-md-8 offset-lg-2"><br>
+                <div class="col-12 col-md-8 offset-lg-2">
                     <h2 class="text-center text-white">INDIVIDUAL TEAM MEMBERS 
                     <hr class="w-50 hidden-sm-down"></h2>
                     <h3 class="text-center text-white" style="color:#4f4f4f;">Our team is composed of professional Web Deveopers, Graphics Designer and Video Editors.</h3>
@@ -128,41 +133,49 @@
 
             <div class="row">
                 <div class="col-md-4 box text-center py-20">
-                    <div class="card card-bordered card-hover-shadow">
+                    <div class="card card-hover-shadow" style="background-color: rgba(255,255,255);">
                         <div class="card-block">
                             <a href="#">
                                 <img src="/public/images/Developer1.jpg" class="img-fluid" style="width: 190px; border: 2px solid #e2e2e2; border-radius: 120px;">
-                                <h4 class="card-title text-dark" style="margin-top: 20px; margin-bottom: 0;">Web Developer</h4><hr>
-                                <h5 class="card-title">Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.</h5>
+                                <h4 class="card-title text-danger" style="margin-top: 20px; margin-bottom: 0;">Web Developer <br> <span class="text-dark">John Doe.</span></h4>
+                                <br>
+                                <h5 class="card-title text-dark">Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.</h5>
                             </a>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-md-4 box text-center py-20">
-                    <div class="card card-bordered card-hover-shadow">
+                    <div class="card card-hover-shadow" style="background-color: rgba(255,255,255);">
                         <div class="card-block">
                             <a href="#">
                                 <img src="/public/images/Developer2.jpg" class="img-fluid" style="width: 190px; border: 2px solid #e2e2e2; border-radius: 120px;">
-                                <h4 class="card-title text-dark" style="margin-top: 20px; margin-bottom: 0;">Graphic Designer</h4><hr>
-                                <h5 class="card-title">Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.</h5>
+                                <h4 class="card-title text-danger" style="margin-top: 20px; margin-bottom: 0;">Graphic Designer <br> <span class="text-dark">John Doe.</span></h4><br>
+                                <h5 class="card-title text-dark">Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.</h5>
                             </a>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-md-4 box text-center py-20">
-                    <div class="card card-bordered card-hover-shadow">
+                    <div class="card card-hover-shadow" style="background-color: rgba(255,255,255);">
                         <div class="card-block">
                             <a href="#">
                                 <img src="/public/images/Developer3.jpg" class="img-fluid" style="width: 190px; border: 2px solid #e2e2e2; border-radius: 120px;">
-                                <h4 class="card-title text-dark" style="margin-top: 20px; margin-bottom: 0;">Web Developer</h4><hr>
-                                <h5 class="card-title">Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.</h5>
+                                <h4 class="card-title text-danger" style="margin-top: 20px; margin-bottom: 0;">Web Developer <br> <span class="text-dark">John Doe.</span></h4><br>
+                                <h5 class="card-title text-dark">Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.</h5>
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+
+        <br>
+        <div class="col-md-12 text-center" style="margin-top: 40px">      
+            <a href="#" data-scrollto="section-services" class="btn btn-round btn-danger">
+                View Our Services
+            </a>
         </div>
     </section>
     <!-- // END OF OUR TEAM SECTION -->
@@ -253,7 +266,7 @@
                 
                 <br>
                 <div class="col-md-12 text-center" style="margin-top: 40px">      
-                    <a href="/center/fitness-option/all" class="btn btn-round btn-danger">
+                    <a href="#" data-scrollto="section-contactus" class="btn btn-round btn-danger">
                         Start Project with Us
                     </a>
                 </div>
@@ -261,6 +274,140 @@
         </div>
     </section>
     <!-- // END OF OUR SERVICES SECTION -->
+
+    <!-- THIS IS THE OUR PORTFOLIO SECTION -->
+    <section class="section overflow-hidden team-member" id="section-portfolio" style="background-image: url(public/images/startup-photos3.jpg)" data-overlay="6">
+        <div class="container pb-40">
+            <div class="row">
+                <div class="col-12 col-md-8 offset-lg-2">
+                    <h2 class="text-center text-white">Featured Works 
+                    <hr class="w-50 hidden-sm-down"></h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 box text-center py-20">
+                    <div class="card card-bordered card-hover-shadow" style="background-color: rgba(255, 255,255, 0);">
+                        <div class="card-block">
+                            <a href="#">
+                                <img src="/public/images/home_sec.jpg" class="img-fluid" style="width: 300px; border: 2px solid #e2e2e2; border-radius: 80px;">
+                                <h4 class="card-title text-white" style="margin-top: 20px; margin-bottom: 0;">Portfolio Name</h4><br>
+                                <h5 class="card-title text-white">Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.</h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 box text-center py-20">
+                    <div class="card card-bordered card-hover-shadow" style="background-color: rgba(255, 255,255, 0);">
+                        <div class="card-block">
+                            <a href="#">
+                                <img src="/public/images/home_sec2.jpg" class="img-fluid" style="width: 300px; border: 2px solid #e2e2e2; border-radius: 80px;">
+                                <h4 class="card-title text-white" style="margin-top: 20px; margin-bottom: 0;">Portfolio Name</h4><br>
+                                <h5 class="card-title text-white">Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.</h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 box text-center py-20">
+                    <div class="card card-bordered card-hover-shadow" style="background-color: rgba(255, 255,255, 0);">
+                        <div class="card-block">
+                            <a href="#">
+                                <img src="/public/images/home_sec3.jpg" class="img-fluid" style="width: 300px; border: 2px solid #e2e2e2; border-radius: 80px;">
+                                <h4 class="card-title text-white" style="margin-top: 20px; margin-bottom: 0;">Portfolio Name</h4><br>
+                                <h5 class="card-title text-white">Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.</h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 box text-center py-20">
+                    <div class="card card-bordered card-hover-shadow" style="background-color: rgba(255, 255,255, 0);">
+                        <div class="card-block">
+                            <a href="#">
+                                <img src="/public/images/home_sec4.jpg" class="img-fluid" style="width: 300px; border: 2px solid #e2e2e2; border-radius: 80px;">
+                                <h4 class="card-title text-white" style="margin-top: 20px; margin-bottom: 0;">Portfolio Name</h4><br>
+                                <h5 class="card-title text-white">Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.</h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- // END OF OUR PORTFOLIO SECTION -->
+
+    <!-- THIS IS THE OUR TESTIMONIALS SECTION -->
+    <section class="section overflow-hidden" id="section-services">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center "><br>
+                    <h5 class="text-uppercase">Testimonials</h5>
+                    <h2>What our Customers Says</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-md-8 offset-md-2 text-center py-20">
+                    <div id="carouselCo" class="carousel slide" data-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="card">
+                                <div class="card-block">
+                                    <a href="#">
+                                        <img src="/public/images/Client1.jpg" class="img-fluid" style="width: 190px; border: 2px solid #e2e2e2; border-radius: 120px;">
+                                        <h4 class="card-title text-dark mt-20">Mary Johnson</h4><hr>
+                                        <h5 class="card-title fw-200">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card">
+                                <div class="card-block">
+                                    <a href="#">
+                                        <img src="/public/images/Client2.jpg" class="img-fluid" style="width: 190px; border: 2px solid #e2e2e2; border-radius: 120px;">
+                                        <h4 class="card-title text-dark mt-20">David Gunner</h4><hr>
+                                        <h5 class="card-title fw-200">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card">
+                                <div class="card-block">
+                                    <a href="#">
+                                        <img src="/public/images/Client3.jpg" class="img-fluid" style="width: 190px; border: 2px solid #e2e2e2; border-radius: 120px;">
+                                        <h4 class="card-title text-dark mt-20">Amy Margarette</h4><hr>
+                                        <h5 class="card-title fw-200">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+
+                      <a class="carousel-control-prev bg-blue" href="#carouselCo" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only fa fa-arrow-left">Previous</span>
+                      </a>
+                      <a class="carousel-control-next bg-blue" href="#carouselCo" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only fa fa-arrow-left">Next</span>
+                      </a>
+                    </div>
+                </div>
+
+                <br>
+                <div class="col-md-12 text-center" style="margin-top: 40px">      
+                    <a  href="#" data-scrollto="section-contactus" class="btn btn-round btn-danger">
+                        Start Project with Us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- // END OF OUR TESTIMONIALS SECTION -->
 
     <section class="section section-inverse cta-register" style="background-image: url(public/images/startup-photos.jpg)" data-overlay="6">
         <div class="container">
@@ -316,9 +463,14 @@
                                     </div>
                                     <br>
                                     <div class="form-group">
-                                      <div class="col-md-12 text-center">
+                                      <div class="col-md-12 text-center hidden-sm-down">
                                         <button class="px-50 py-5" type="reset" style="color: #ffffff; background-color: #d82d48; border-color: transparent;">Reset</button>
                                         <button class="px-50 py-5" type="submit" style="color: #ffffff; background-color: #2c3e50; border-color: transparent;">Submit</button>
+                                      </div>
+
+                                      <div class="col-md-12 text-center hidden-sm-up">
+                                        <button class="px-50 py-5 btn-block" type="reset" style="color: #ffffff; background-color: #d82d48; border-color: transparent;">Reset</button>
+                                        <button class="px-50 py-5 btn-block" type="submit" style="color: #ffffff; background-color: #2c3e50; border-color: transparent;">Submit</button>
                                       </div>
                                     </div>
                                 </fieldset>
