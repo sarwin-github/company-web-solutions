@@ -27,6 +27,10 @@ textarea {
 	font-weight: 300
 }
 
+.text-gray-dark{
+	color: #2e4da5 !important;
+}
+
 a {
 	color: #02b2e2;
 	transition: .2s linear
