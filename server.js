@@ -49,10 +49,13 @@ app.use(express.static(__dirname));
 // Get the bootstrap, jquery, and font-awesome inside the node_module 
 app.use('/js'     , express.static(__dirname + '/node_modules/bootstrap/dist/js'));
 app.use('/js'     , express.static(__dirname + '/node_modules/jquery/dist'));
+app.use('/js/'    , express.static(__dirname + '/node_modules/aos/dist'));
 app.use('/css'    , express.static(__dirname + '/node_modules/bootstrap/dist/css')); 
 app.use('/fonts/' , express.static(__dirname + '/node_modules/bootstrap/dist/fonts'));
 app.use('/fonts/' , express.static(__dirname + '/node_modules/font-awesome/fonts'));
 app.use('/css/'   , express.static(__dirname + '/node_modules/font-awesome/css'));
+app.use('/css/'   , express.static(__dirname + '/node_modules/hover.css/css'));
+app.use('/css/'   , express.static(__dirname + '/node_modules/aos/dist'));
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // Set and Initialize Routes
