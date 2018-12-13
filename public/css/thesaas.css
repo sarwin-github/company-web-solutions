@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800|Dosis:300,600");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800|Lato:300,600");
 body {
 	font-family: "Open Sans", sans-serif;
 	color: #535353;
@@ -4181,11 +4181,41 @@ header.main-header .overlay {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	opacity: 0.9
+	opacity: 0.3;
 }
 
 header.prof-header {
-	position: relative
+	position: relative;
+    
+}
+
+.shape {
+  background: #e7ecf5;
+  position: relative;
+}
+
+.svg {
+  margin-top: -60px;
+}
+
+.svgpath {
+  fill: #e7ecf5;
+  width:100% !important;
+  height:100% !important;
+}
+
+
+@media only screen and (min-width : 768px) {
+    header.prof-header {
+    	position: relative !important;
+
+    }
+}
+
+@media only screen and (max-width : 767px) {
+    header.prof-header {
+    	position: relative;
+    }
 }
 
 header.prof-header .overlay {
@@ -4196,7 +4226,7 @@ header.prof-header .overlay {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	opacity: 0.7
+	opacity: 0.3;
 }
 
 .pricing-1 small {
@@ -5021,6 +5051,10 @@ ul.flexbox {
 	transition: .4s
 }
 
+.topbar-nav .nav-item > .nav-link .btn {
+	opacity: 1 !important;
+}
+
 .topbar-nav .nav-item:hover>.nav-link,
 .topbar-nav .nav-item.show>.nav-link {
 	opacity: 1
@@ -5035,7 +5069,7 @@ ul.flexbox {
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	font-weight: 600;
-	opacity: .6;
+	opacity: 1;
 	padding: 0;
 	transition: .3s
 }
